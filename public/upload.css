@@ -1,0 +1,121 @@
+@font-face {
+    font-family: externalFont;
+    src: url('/images/aileron/Aileron-Regular.otf');
+ }
+ 
+ 
+ .body1 {
+    background-color: #e4e2dd;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ header {
+    font-family: 'externalFont', sans-serif;
+    background-color: rgb(0, 0, 0);
+    height: 140px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+ }
+ 
+ 
+ header img {
+    max-width: 125px;
+    height: auto;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ 
+ .button-container {
+    font-family: externalFont;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+ }
+ 
+ 
+ .header-button {
+    font-family: externalFont;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ 
+ 
+ .header-button:hover {
+    background-color: #d30707;
+ }
+ 
+ 
+ main {
+    margin-top: 160px;
+ }
+ 
+ 
+ .robo-flow-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+ }
+ 
+ 
+ .text-content {
+    width: 60%;
+ }
+ 
+ 
+ .qr-code img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 20px;
+ }
+ 
+ 
+ .robo_flow {
+    font-family: externalFont;
+ }
+ 
+ 
+ .explanation{
+    font-family: externalFont;
+ }
+ 
+ 
+ .robo-button {
+    font-family: externalFont;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ 
+ 
+ .robo-button:hover {
+    background-color: #d30707;
+ }
+ 
+ 
+ 
